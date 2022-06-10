@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+.page_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+  align-items: center;
+  min-height: 72px;
+  background-color: rgb(255, 255, 255);
+}
+.btn_profile {
+  display: flex;
+  flex-direction: row;
+}
+.profile {
+  padding: 8px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(66, 66, 66);
+}
