@@ -2,7 +2,7 @@
   box-sizing: border-box;
   height: 80vh;
   width: 280px;
-  padding: 60px 0;
+  padding: 40px 0;
   // background-color: rgb(255, 255, 255);
 }
 
@@ -53,8 +53,8 @@
   gap: 10px;
   list-style: none;
   padding: 0px;
-  // border-top: 1px solid rgba(42, 47, 55, 0.1);
-  // border-bottom: 1px solid rgba(42, 47, 55, 0.1);
+  border-top: 1px solid rgba(42, 47, 55, 0.1);
+  border-bottom: 1px solid rgba(42, 47, 55, 0.1);
 
   &_item {
     display: flex;

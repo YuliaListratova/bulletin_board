@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  margin: 20px;
 }
 
 .user_card {
@@ -9,4 +10,36 @@
   background-color: rgb(190, 190, 190);
   padding: 15px;
   width: 200px;
+}
+
+h1 {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(44, 45, 46, 1);
+}
+
+p {
+  margin: 0;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(44, 45, 46, 0.6);
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(42, 47, 55, 0.1);
+  padding-bottom: 32px;
+}
+
+.block_search {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0px;
 }

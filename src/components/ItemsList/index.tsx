@@ -28,7 +28,7 @@ const ItemsList = () => {
         {/* <button type="button" onClick={handleAddItemToChart}>
           Добавить в корзину
         </button> */}
-        <Button btnText="Добавить в корзину" handleClick={handleAddItemToChart} />
+        {/* <Button btnText="Добавить в корзину" handleClick={handleAddItemToChart} /> */}
       </div>
 
       <div>
