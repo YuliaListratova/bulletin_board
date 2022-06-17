@@ -16,7 +16,7 @@ const PageLayout: FC<IPageLayout> = ({ children }) => {
         <div>
           <Sidebar />
         </div>
-        {/* <div className={style.content_wrapper}>{children}</div> */}
+        <div className={style.content_wrapper}>{children}</div>
       </div>
       <Footer />
     </div>

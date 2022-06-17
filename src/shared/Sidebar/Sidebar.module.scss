@@ -62,14 +62,13 @@
     padding: 8px 24px 8px 24px;
     text-decoration: none;
     color: black;
-    border-left: 2px solid rgba(72, 119, 242, 1);
-    color: rgba(72, 119, 242, 1);
+    // border-left: 2px solid rgba(72, 119, 242, 1);
+    color: rgba(66, 66, 66, 1);
   }
   &_name {
     padding-left: 12px;
     font-family: 'Jost';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
   }
@@ -77,4 +76,6 @@
 
 .active {
   font-weight: 700;
+  border-left: 2px solid rgba(72, 119, 242, 1);
+  color: rgba(72, 119, 242, 1);
 }
