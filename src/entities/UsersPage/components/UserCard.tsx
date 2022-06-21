@@ -4,16 +4,20 @@ import style from '../UsersPage.module.scss';
 
 interface IProps {
   id: number;
-  name: string;
-  email: string;
+  title: string;
+  category: string;
 }
 
-const UserCard: FC<IProps> = ({ id, name, email }) => {
+const UserCard: FC<IProps> = ({ id, title, category }) => {
   return (
     <div className={style.user_card}>
-      <p>{name}</p>
-      <p>{email}</p>
-      <Link to={`${id}`}>Подробная информация</Link>
+      <p className={style.user_card_title}>{title}</p>
+      <p className={style.user_card_category}>{category}</p>
+      <p className={style.user_card_data}>12 апреля 2022</p>
+      <p className={style.user_card_publication}>Да</p>
+      <Link className={style.user_card_edit} to={`${id}`}>
+        |||
+      </Link>
     </div>
   );
 };

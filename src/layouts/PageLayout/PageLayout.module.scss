@@ -1,22 +1,17 @@
 .section_wrapper {
   display: flex;
-  //   justify-content: center;
-  //   width: 100%;
   flex-direction: column;
+  background-color: rgba(42, 47, 55, 0.02);
+  // background-color: rgba(27, 99, 216, 0.3);
 }
 
 .page_wrapper {
   display: flex;
   width: 1170px;
   margin: 0 auto;
-  //   justify-content: space-between;
-  //   flex-direction: row;
-  //   height: 100vh;
-  //   flex: 1 1 auto;
 }
 
 .content_wrapper {
-  padding: 40px;
-  height: 100vh;
-  // background-color: rgb(145, 159, 243);
+  padding: 40px 0px 40px 40px;
+  width: 867px;
 }

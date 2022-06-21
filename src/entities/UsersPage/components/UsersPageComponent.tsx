@@ -35,10 +35,10 @@ const UsersPageComponent: FC<IProps> = ({ usersDataAttr }) => {
       <div className={style.user_list}>
         {usersDataAttr.length ? (
           usersDataAttr.map((user) => {
-            const { id, name, email } = user;
+            const { id, title, category } = user;
             return (
               <React.Fragment key={`UserId:${id}`}>
-                <UserCard id={id} name={name} email={email} />
+                <UserCard id={id} title={title} category={category} />
               </React.Fragment>
             );
           })

@@ -1,14 +1,13 @@
 .sidebar_wrapper {
   box-sizing: border-box;
-  height: 80vh;
-  width: 280px;
-  padding: 40px 0;
-  // background-color: rgb(255, 255, 255);
+  width: 263px;
+  margin: 40px 0px;
+  background-color: rgb(255, 255, 255);
 }
 
 .super_admin_block {
   display: flex;
-  margin: 24px;
+  padding: 24px;
 }
 .super_admin_text {
   padding-left: 16px;
@@ -34,7 +33,7 @@
 
 .exit {
   display: flex;
-  margin: 24px;
+  padding: 24px;
 }
 .exit_text {
   padding-left: 12px;
@@ -50,9 +49,9 @@
 .sidebar_menu {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   list-style: none;
   padding: 0px;
+  margin: 0px;
   border-top: 1px solid rgba(42, 47, 55, 0.1);
   border-bottom: 1px solid rgba(42, 47, 55, 0.1);
 
@@ -62,7 +61,6 @@
     padding: 8px 24px 8px 24px;
     text-decoration: none;
     color: black;
-    // border-left: 2px solid rgba(72, 119, 242, 1);
     color: rgba(66, 66, 66, 1);
   }
   &_name {
@@ -79,3 +77,10 @@
   border-left: 2px solid rgba(72, 119, 242, 1);
   color: rgba(72, 119, 242, 1);
 }
+
+// img.icon {
+//   width: 100px;
+//   &:hover {
+//     fill: green;
+//   }
+// }
