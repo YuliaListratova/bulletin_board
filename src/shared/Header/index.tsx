@@ -1,15 +1,14 @@
 import React from 'react';
 import style from './Header.module.scss';
-import logo from '../../img/logo.svg';
-import profile from '../../img/profile.svg';
+import { SvgSelector } from '../Svg.Selector';
 
 const Header = () => {
   return (
     <div className={style.header}>
       <div className={style.page_header}>
-        <img src={logo} alt="My logo" />
+        <SvgSelector id="logo" />
         <div className={style.btn_profile}>
-          <img src={profile} alt="profile" />
+          <SvgSelector id="profile" />
           <p className={style.profile}>Профиль</p>
         </div>
       </div>
