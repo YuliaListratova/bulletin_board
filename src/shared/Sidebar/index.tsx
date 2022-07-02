@@ -25,11 +25,10 @@ const Sidebar = () => {
               key={menuItem.id}
               to={menuItem.path}
               className={`${isActiveClassName} ${style.sidebar_menu_item}`}>
-              <div className={style.icon}>
-                <svg className={style.some_css_class}>
-                  <use xlinkHref={`${icon_ads}#${menuItem.img}`} />
-                </svg>
-              </div>
+              <svg className={style.svg_icon}>
+                <use xlinkHref={menuItem.img} />
+              </svg>
+
               <li className={style.sidebar_menu_name}>{menuItem.name}</li>
             </Link>
           );

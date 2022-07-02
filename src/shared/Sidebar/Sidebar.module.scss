@@ -57,11 +57,13 @@
 
   &_item {
     display: flex;
+    align-items: center;
     margin: 16px 0;
     padding: 8px 24px 8px 24px;
     text-decoration: none;
     color: black;
     color: rgba(66, 66, 66, 1);
+    border-left: 2px solid transparent;
   }
   &_name {
     padding-left: 12px;
@@ -78,10 +80,8 @@
   color: rgba(72, 119, 242, 1);
 }
 
-// .icon {
-//   width: 100px;
-
-//   &:hover {
-//     color: green;
-//   }
-// }
+.svg_icon {
+  stroke: black;
+  width: 20px;
+  height: 20px;
+}
